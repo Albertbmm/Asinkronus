@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+h2{
+	font-size: 250%;
+	font-family: sans-serif;
+
+}
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.intro-baru{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	display: table;
+	top: 0;
+	background: url(Gambar/gambar1.jpg);
+	background-size: cover;
+}
+
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+.content{
+	max-width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 5%;
+
+}
+
+.content h1{
+	font-family: 'Yantramanav',sans-serif;
+	font-size: 600%;
+	font-weight: 100;
+	color: #FFD700;
+	line-height: 78%;
+}
+
+.btn{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 135%;
+	font-weight: 400;
+	color: #3a6168;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: solid #3a6168;
+	padding: 10px 20px 20px;
+	border-radius: 6px;
+	transition: all 1s;
+}
+.btn:hover{
+	color: #cbdfd6;
+	border: solid #cbdfd6 2px;
+}
+
+p{
+	font-size: 150%;
+	line-height: 120%;
+	font-family: sans-serif;
+}
+
+
+/*--- Media Queries --*/
+@media screen and (max-width: 900px) {
+  .content{
+		padding-bottom: 30%;
+
+	}
+	.content h1{
+		font-size: 450%;
+	}
+	.btn{
+		font-size: 130%;
+		padding: 9px 17px;
+	}
+}
+@media screen and (max-width: 768px) {
+
+	.content{
+		padding-bottom: 40%;
+
+	}
+	.content h1{
+		font-size: 300%;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 7px 15px;
+	}
+	p{
+		font-size: 120%;
+		line-height: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.content{
+		padding-bottom: 50%;
+
+	}
+	.content h1{
+		font-size: 250%;
+	}
+	.btn{
+		font-size: 110%;
+		padding: 6px 14px;
+	}
+	p{
+		font-size: 100%;
+		line-height: 100%;
+	}
+}
